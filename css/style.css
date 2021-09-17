@@ -41,19 +41,45 @@ nav li{
   margin-right: 10px;
 }
 
-nav li a{
+nav li a {
   text-decoration: none;
   color: gray;
   text-transform: uppercase;
 }
 
+nav li a:hover{
+  color: orange;
+  text-decoration: underline;
+}
+
+nav li a:active{
+  color: red;
+}
+
 /* jumbotron */
 
 .jumbotron{
-  min-height: 250px;
-  background-color:brown;
-  margin: 20px 0;
+  height: 300px;
+  background-color:blue;
+  margin-bottom: 20px;
+  background-image: url('../img/banner.jpg');
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
 }
+
+
+
+.jumbotron span{
+  
+}
+
+
+
+
+
+
 
 main{
   min-height: 300px;
